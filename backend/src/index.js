@@ -12,8 +12,9 @@ connectDB();
 const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://1-fi-sand.vercel.app/",
-  process.env.FRONTEND_URL || "https://yourfrontend.com"
+  "https://1-fi-sand.vercel.app",
+  "https://1-fi-git-main-himanshu-sharmas-projects-028f2920.vercel.app",
+  process.env.FRONTEND_URL
 ].filter(Boolean);
 
 app.use(cors({
