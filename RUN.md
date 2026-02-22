@@ -10,8 +10,7 @@ Follow these steps to run the 1Fi EMI app locally.
 ## 2. Backend
 
 1. Open a terminal and go to the backend folder:
-   ```bash
-   cd "c:\Users\Himanshu\Desktop\1Fi Tech\backend"
+   ```
    ```
 
 2. Create/update the `.env` file (copy from `.env.example` if needed). Set:
@@ -33,8 +32,7 @@ Follow these steps to run the 1Fi EMI app locally.
 ## 3. Frontend
 
 1. Open a **new** terminal and go to the frontend folder:
-   ```bash
-   cd "c:\Users\Himanshu\Desktop\1Fi Tech\frontend"
+   ```
    ```
 
 2. Create/update the `.env` file. Set:
@@ -58,7 +56,7 @@ Follow these steps to run the 1Fi EMI app locally.
 To reset and re-seed the database:
 
 ```bash
-cd "c:\Users\Himanshu\Desktop\1Fi Tech\backend"
+cd backend
 npm run seed
 ```
 
@@ -67,7 +65,7 @@ npm run seed
 To build the frontend for deployment:
 
 ```bash
-cd "c:\Users\Himanshu\Desktop\1Fi Tech\frontend"
+cd frontend"
 npm run build
 ```
 
